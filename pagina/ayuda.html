@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css".css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+    <title>IndumentariaNanchu</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav"><a href="../index.html">Inicio</a></li>
+                <li class="nav"><a href="../pagina/novedades.html">Novedades</a></li>
+                <li class="nav"><a href="../pagina/nosotros.html">Nosotros</a></li>
+                <li class="nav"><a href="../pagina/contacto.html">Contacto</a></li>
+                <li class="nav"><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact_form">
+
+        <div>
+            <h1 class="formulario">Formulario de contacto</h1>
+            <h3 class="formulario">Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+            <form action="------" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Bríndanos la mayor infomación posible para poder ayudarte"></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"></span>
+                </p>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Todos los derechos reservados, Jonathan Nahuel Accorinti</p>
+</footer>

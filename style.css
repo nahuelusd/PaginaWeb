@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(204, 227, 222);
+    background-image: url(/img/Fondo.png);
+    text-align: center;
+    font-family: 'BioRhyme', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h1.TituloPrincipal {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(204, 227, 222);
+    background-image: url(/img/Fondo.png);
+    text-align: center;
+    font-family: 'BioRhyme', serif;
+    margin-top: auto;
+}
+  
+li.nav {
+    background-color: rgb(164, 195, 178);
+    border: rgb(107, 144, 128) 2px solid;
+    display: inline;
+    margin-right: 8px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li.Titulos {
+    text-align: center;
+    margin-right: 10%;
+    display: inline;
+    
+}
+
+main.grid {
+    display: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 300px auto;
+    grid-template-areas: 
+                    "imagen1 imagen1 imagen1"
+                    "imagen2 imagen2 imagen2"
+                    "imagen3 imagen3 imagen3";
+}
+
+.imagen1 {
+    grid-area: imagen1 imagen1 imagen1;
+}
+
+.imagen2 {
+    grid-area: imagen2 imagen2 imagen2;
+}
+
+.imagen3 {
+    grid-area: imagen3 imagen3 imagen3;
+}
+
+@media only screen and (max-width:480px) {
+    .grid {
+        display: center;
+       grid-template-areas:
+                    "imagen1 imagen1 imagen1"
+                    "imagen2 imagen2 imagen2"
+                    "imagen3 imagen3 imagen3";
+        grid-template-rows: 150px 300px auto auto;           
+        grid-template-columns: 50% 50%;
+    }
+}
