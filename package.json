@@ -15,5 +15,8 @@
     "url": "https://github.com/nahuelusd/PaginaWeb/issues"
   },
   "homepage": "https://github.com/nahuelusd/PaginaWeb#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

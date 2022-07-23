@@ -5,38 +5,46 @@ body {
 }
 
 footer {
-    float: bottom;
+    text-align: center;
     font-family: 'BioRhyme', serif;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.footer {
+    text-decoration: none;
+}
+.titulo {
+    text-align: center;
+    margin-top: 30px;
 }
 
-/* NAVEGACIÓN NAVEGACIÓN */
 
-li.list-inline-item {
-    flex: wrap;
+/* NAVEGACIÓN NAVEGACIÓN */
+.navegacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.navegacion a {
     text-decoration: none;
+    color: black;
     background-color: rgb(164, 195, 178);
-    border: rgb(107, 144, 128) 2px solid;
-    display: inline;
-    margin-right: 8px;
+    width: 10px;
+    padding: 10px;
 }
 
-.list-inline-item:hover {
-    background-color: rgb(186, 212, 170);
+.navegacion a:hover {
+    background-color: rgb(212, 239, 223 );
+    transition: all 1s;
 }
 
 /* NAVEGACIÓN NAVEGACIÓN */
-
-a:hover {
-    font-family: 'BioRhyme', serif;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
 .card-body {
     font-family: 'BioRhyme', serif;
     display: flex;
@@ -45,13 +53,36 @@ a {
 }
 
 /* ICONOS CONTACTOS ICONOS CONTACTOS */
+.iconos {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
 
 .fa-facebook {
     font-size: 15rem;
+    color: rgb(186, 212, 170)
 }
 
 .fa-instagram {
+    color: rgb(186, 212, 170);
     font-size: 15rem;
 }
 
 /* ICONOS CONTACTOS ICONOS CONTACTOS */
+
+
+/*  TELEFONOS PEQUEÑOS */
+@media only screen and (max-width:576px) {
+
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navegacion li {
+        margin: 10px;
+        padding: 10px;
+    }
