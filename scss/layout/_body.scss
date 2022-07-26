@@ -1,0 +1,12 @@
+body {
+    font-family: 'BioRhyme', serif;
+    background-color: $color_fondo;
+    background-image: url(/img/Fondo.png);
+}
+
+.card-body {
+    font-family: 'BioRhyme', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
