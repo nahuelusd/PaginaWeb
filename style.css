@@ -1,88 +1,95 @@
+@charset "UTF-8";
+/* line 1, scss/style.scss */
 body {
-    font-family: 'BioRhyme', serif;
-    background-color: rgb(204, 227, 222);
-    background-image: url(/img/Fondo.png);
-}
+  font-family: 'BioRhyme', serif;
+  background-color: rgb(204, 227, 222);
+  background-image: url(/img/Fondo.png); }
 
+/* line 7, scss/style.scss */
 footer {
-    text-align: center;
-    font-family: 'BioRhyme', serif;
-    margin-top: 150px;
-    text-decoration: none;
-}
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+  margin-top: 150px;
+  text-decoration: none; }
+
+/* line 13, scss/style.scss */
 .footer {
-    text-decoration: none;
-}
+  text-decoration: none; }
+
+/* line 16, scss/style.scss */
 .titulo {
-    text-align: center;
-    margin-top: 30px;
-}
+  text-align: center;
+  margin-top: 30px; }
 
+/* line 21, scss/style.scss */
+.text-center {
+  margin-top: 150px; }
 
 /* NAVEGACIÓN NAVEGACIÓN */
+/* line 26, scss/style.scss */
 .navegacion {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
 
-}
-
+/* line 33, scss/style.scss */
 .navegacion li {
-    list-style: none;
-}
+  list-style: none; }
 
+/* line 37, scss/style.scss */
 .navegacion a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(164, 195, 178);
-    width: 10px;
-    padding: 10px;
-}
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(164, 195, 178);
+  width: 10px;
+  padding: 10px; }
 
+/* line 45, scss/style.scss */
 .navegacion a:hover {
-    background-color: rgb(212, 239, 223 );
-    transition: all 1s;
-}
+  background-color: rgb(212, 239, 223);
+  transition: all 1s; }
 
 /* NAVEGACIÓN NAVEGACIÓN */
+/* line 51, scss/style.scss */
 .card-body {
-    font-family: 'BioRhyme', serif;
+  font-family: 'BioRhyme', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+
+/* ICONOS CONTACTOS ICONOS CONTACTOS */
+/* line 59, scss/style.scss */
+.iconos {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center; }
+
+/* line 65, scss/style.scss */
+.fa-facebook {
+  font-size: 15rem;
+  color: rgb(186, 212, 170); }
+
+/* line 70, scss/style.scss */
+.fa-instagram {
+  color: rgb(186, 212, 170);
+  font-size: 15rem; }
+
+/* ICONOS CONTACTOS ICONOS CONTACTOS */
+/*  TELEFONOS PEQUEÑOS */
+@media only screen and (max-width: 576px) {
+  /* line 81, scss/style.scss */
+  .navegacion {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-}
-
-/* ICONOS CONTACTOS ICONOS CONTACTOS */
-.iconos {
-    display: flex;
-    margin-top: 150px;
-    justify-content: center;
-}
-
-.fa-facebook {
-    font-size: 15rem;
-    color: rgb(186, 212, 170)
-}
-
-.fa-instagram {
-    color: rgb(186, 212, 170);
-    font-size: 15rem;
-}
-
-/* ICONOS CONTACTOS ICONOS CONTACTOS */
-
-
-/*  TELEFONOS PEQUEÑOS */
-@media only screen and (max-width:576px) {
-
-    .navegacion {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navegacion li {
-        margin: 10px;
-        padding: 10px;
-    }
+    align-items: center;
+    justify-content: center; }
+  /* line 88, scss/style.scss */
+  .navegacion li {
+    margin: 10px;
+    padding: 10px; }
+  /* line 93, scss/style.scss */
+  .fa-facebook {
+    font-size: 10rem; }
+  /* line 97, scss/style.scss */
+  .fa-instagram {
+    font-size: 10rem; } }

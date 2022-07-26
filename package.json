@@ -1,22 +1,29 @@
 {
   "name": "paginaweb",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "node-sass": "^7.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss/style.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nahuelusd/PaginaWeb.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nahuelusd/PaginaWeb/issues"
   },
-  "homepage": "https://github.com/nahuelusd/PaginaWeb#readme",
-  "description": "",
-  "dependencies": {
-    "animate.css": "^4.1.1"
-  }
+  "homepage": "https://github.com/nahuelusd/PaginaWeb#readme"
 }
