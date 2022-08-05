@@ -5,5 +5,8 @@ body {
 }
 
 .card-body {
-@include flex
-}
+    @include flex (flex, column, flex-end); 
+        $display: flex;
+        $direction: column;
+        $justify: flex-end; 
+    }
