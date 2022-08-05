@@ -1,0 +1,6 @@
+@mixin flex ($letra, $display, $direction, $justify) {
+    display: $display;
+    font-family: $letra;
+    flex-direction: $direction;
+    justify-content: $justify;
+}

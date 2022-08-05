@@ -5,8 +5,5 @@ body {
 }
 
 .card-body {
-    font-family: 'BioRhyme', serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+@include flex
 }
