@@ -5,24 +5,31 @@ body {
 }
 
 .card-body {
-    @include flex (flex, column, flex-end); 
-        $display: flex;
-        $direction: column;
-        $justify: flex-end; 
-    }
+    @include flex (flex, column, flex-end);
+    $display: flex;
+    $direction: column;
+    $justify: flex-end;
+}
+
+.card {
+    box-shadow: 0 0 20px 0 rgb(164, 195, 178);
+}
 
 .product-flags {
-        list-style: none;
-        top: 0;
-        display: block;
-        position: absolute;
-        padding: 0.75rem 1.15rem;
-        color: black;
-        background: #fff;
-        text-transform: uppercase;
-        min-width: 3.125rem;
-        min-height: 1.875rem;
-        font-size: 1rem;
-        font-weight: 600;
-        box-shadow: 0 9px 22px 0 rgb(0 0 0 / 14%);
+    list-style: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #f0f0f0;
+    width: 140px;
+    box-shadow: 7px 7px 15px #e6e6e6;
 }
+
+.parrafo {
+    padding: 2em;
+    margin: 2em;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+

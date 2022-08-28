@@ -21,3 +21,24 @@
         font-size: 10rem;
     }
 }
+/*  TELEFONOS PEQUEÑOS */
+
+/*  PANTALLAS MEDIANAS */
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+  }
+/*  PANTALLAS MEDIANAS */
