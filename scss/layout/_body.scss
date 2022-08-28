@@ -10,3 +10,19 @@ body {
         $direction: column;
         $justify: flex-end; 
     }
+
+.product-flags {
+        list-style: none;
+        top: 0;
+        display: block;
+        position: absolute;
+        padding: 0.75rem 1.15rem;
+        color: black;
+        background: #fff;
+        text-transform: uppercase;
+        min-width: 3.125rem;
+        min-height: 1.875rem;
+        font-size: 1rem;
+        font-weight: 600;
+        box-shadow: 0 9px 22px 0 rgb(0 0 0 / 14%);
+}
