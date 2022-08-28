@@ -1,11 +1,11 @@
-@import '/scss/mics/_variables.scss';
+@import './mics/variables';
 
-@import '/scss/layout/header';
-@import '/scss/layout/body';
-@import '/scss/layout/footer';
+@import './layout/header';
+@import './layout/body';
+@import './layout/footer';
 
-@import '/scss/componentes/iconos.scss';
-@import '/scss/componentes/ayudaformulario.scss';
+@import './componentes/iconos.scss';
+@import './componentes/ayudaformulario.scss';
 
-@import '/scss/utilidades/mediaqueris';
+@import './utilidades/mediaqueris';
 

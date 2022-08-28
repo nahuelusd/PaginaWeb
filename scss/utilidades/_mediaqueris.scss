@@ -1,4 +1,4 @@
-/*  TELEFONOS PEQUEÑOS */
+/* Pantallas extra pequeñas  */
 @media only screen and (max-width:576px) {
 
     .navegacion {
@@ -21,9 +21,9 @@
         font-size: 10rem;
     }
 }
-/*  TELEFONOS PEQUEÑOS */
+/* Pantallas extra pequeñas  */
 
-/*  PANTALLAS MEDIANAS */
+/* Media Formulario  */
 @media(min-width: 700px) {
     body {
         padding: 0 4em;
@@ -41,4 +41,18 @@
         text-align: left;
     }
   }
-/*  PANTALLAS MEDIANAS */
+/* Media Formulario  */
+
+/* Media footer  */
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  /* Media footer  */

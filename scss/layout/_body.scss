@@ -2,10 +2,10 @@ body {
     font-family: 'BioRhyme', serif;
     background-color: $color_fondo;
     background-image: url(/img/Fondo.png);
+    padding: 0 1em;
 }
 
 .card-body {
-    @include flex (flex, column, flex-end);
     $display: flex;
     $direction: column;
     $justify: flex-end;
@@ -23,13 +23,3 @@ body {
     width: 140px;
     box-shadow: 7px 7px 15px #e6e6e6;
 }
-
-.parrafo {
-    padding: 2em;
-    margin: 2em;
-    margin-top: 150px;
-    text-align: center;
-    justify-content: center;
-    font-size: 25px;
-}
-

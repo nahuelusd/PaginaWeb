@@ -29,7 +29,7 @@
 }
 
 .contact-form {
-    background: rgb(164, 195, 178);
+    background: #f0f0f0;
 }
 
 .contact-form form {
@@ -58,7 +58,7 @@
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border-bottom: 1px solid #f0f0f0;
 }
 
@@ -72,7 +72,7 @@
 .contact-form form button:hover,
 .contact-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color: #ffffff;
     transition: background-color 1s ease-out;
     outline: 0;
 }
@@ -87,5 +87,4 @@
     text-align: center;
     margin: 0 0 1rem 0;
 }
-
 /* FORMULARIO AYUDA */
