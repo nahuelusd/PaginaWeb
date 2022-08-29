@@ -1,5 +1,5 @@
 /* Pantallas extra pequeñas  */
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:574px) {
 
     .navegacion {
         display: flex;
@@ -19,6 +19,10 @@
     
     .fa-instagram {
         font-size: 10rem;
+    }
+
+    .footer-col{
+        width: 100%;
     }
 }
 /* Pantallas extra pequeñas  */
@@ -48,11 +52,6 @@
     .footer-col{
       width: 50%;
       margin-bottom: 30px;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
   }
   }
   /* Media footer  */
